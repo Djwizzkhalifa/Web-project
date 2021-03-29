@@ -1,0 +1,39 @@
+.centre{
+    background-color:khaki;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: outset;
+}
+
+input[type="date"]{
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+label, fieldset,div,input{
+    padding: 10px;
+    
+}
+
+
+.clicky, .toggles{
+    text-align: center;
+}
+
+
+h4{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(../img/planebg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
